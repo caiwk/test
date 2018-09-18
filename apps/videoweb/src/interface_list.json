@@ -1,0 +1,59 @@
+
+/*
+FORM:
+timestamp=1525366837&back_hour=1&tag=异常闯入&tag=教二&paging_first_index=0&paging_page_size=10
+*/
+
+{
+  "search": {
+    "timestamp": 1525366837,
+    "back_hour": 1,
+    "tags": [
+      "异常闯入",
+      "教二"
+    ],
+    "keywords": [
+      "异常闯入",
+      "教二"
+    ],
+    "paging_first_index": 0,
+    "paging_page_size": 10
+  },
+  "result": {
+    "paging_total_count": 1000,
+    "cameras": [
+      {
+        "id": 1,
+        "location": "北邮教一楼东南角",
+        "is_hd": true,
+        "videos": [
+          {
+            "id": 1,
+            "start_timestamp": 122342934,
+            "duration": 600,
+            "format": "mp4",
+            "video_url": "/IDMS/assets/self-owned/video/v1.mp4",
+            "poster_url": "/IDMS/assets/self-owned/video/v11.png",
+            "alerts": [
+              {
+                "id": 1,
+                "type": 1,
+                "level": 1,
+                "message": "违章停车：京Q123456",
+                "poster_url": "/IDMS/assets/self-owned/video/v11.png",
+                "start_timestamp": 1029380293,
+                "start_sec_in_video": 100,
+                "end_timestamp": null,
+                "end_sec_in_video": null,
+                "end_video_id": null,
+                "end_video_url": null,
+                "end_reason": null,
+                "duration": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

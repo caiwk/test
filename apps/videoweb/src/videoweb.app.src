@@ -1,0 +1,20 @@
+{application, videoweb,
+  [{description, "An OTP application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {videoweb_app, []}},
+    {applications,
+      [kernel,
+        stdlib,
+        epgsql,
+        cowboy,
+        lager,
+        jsx
+      ]},
+    {env, []},
+    {modules, []},
+
+    {maintainers, []},
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+  ]}.
